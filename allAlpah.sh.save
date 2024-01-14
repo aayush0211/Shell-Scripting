@@ -1,0 +1,10 @@
+#!/bin/bash
+
+read -p "Enter a string : " str
+
+if [[ "$str"=~^[[:alpha:]]+$ ]]
+then 
+echo "string contains non-aphabetic char also"
+else
+echo "string contains alphabetic"
+fi
